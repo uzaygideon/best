@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+    <script src="https://kit.fontawesome.com/19db82a4ec.js" crossorigin="anonymous"></script>
+    <link
+  rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+<link rel="icon" href="img-rebranded/favicon.png" >
+<link rel="stylesheet" href="style.css">
+
+    <title>G-BUILDER</title>
+</head>
+<body>  
+  <!-- scroll to the top menu -->
+  <div class="dancing-top" id="dance" >Top</div>
+  <!-- Inside dropdown menu -->
+    <div class="link-con">
+        <span class="trans-opacity">
+        <i class="fa-solid fa-xmark" onclick="myxmark()"></i> 
+        <div class="cl-0"></div>
+        <p class="p-tag" onclick="myp()">Products</p><i class="fa-solid fa-angle-down" onclick="angledown()" id="id-one"></i><i class="fa-solid fa-angle-up" onclick="angleup()" id="id-two"></i>
+        <div class="cl-1"></div>
+        <div class="product-whole" id="added-whole">  
+        <div class="product-con">
+            <a href="" class="me">Overview</a>
+            <a href="" class="me">Award-Winning Templates</a>
+            <a href="" class="me">Blogging</a>
+            <a href="" class="me">Portfolios</a>
+            <a href="" class="me">Website Analytics</a>
+            <a href="" class="me">Connected Service</a>
+            <a href="" class="me">Hire an Expert</a>
+            <a href="" class="me">Enterprise Solution</a>
+        </div>
+    </div>
+    
+        <a href="#" class="a-tag">Templates</a>
+
+        <p class="p-tag-2" onclick="myr()">Resources</p><i class="fa-solid fa-angle-down" onclick="angledown2()" id="id-three"></i><i class="fa-solid fa-angle-up" onclick="angleup2()" id="id-four"></i>
+        <div class="cl-1"></div>
+        <div class="resources-whole" id="resources-out">
+        <div class="resources-con">
+            <a href="">Made with G-BUILDER</a>
+            <a href="">G-BUILDER blog</a>
+            <a href="">Help Center</a>
+            <a href="">Forum</a>
+            <a href="">Webnibars</a>
+            <a href="">For Professionals</a>
+        </div>
+        </div>
+    </span>
+    </div>
+    <div class="whole-container">
+<!-- Black Navigation background color section(section:1) -->
+   <nav>
+    <i class="fa-solid fa-fire-flame-curved"></i>
+    <i class="fa-solid fa-bars" onclick="mybar()"></i>
+    <span class="cl-0"></span>
+   </nav>
+   <!-- Black and White Bcakground Image section(section:2) -->
+   <div class="swiper-container-1 swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="swiper-slide-one">
+<p class="swi-fi"> WELCOME E-BUILDER</p>
+<p class="swi-se">DIGITAL <br>INNOVATON<br> COMPANY<br> THAT CREATES<br> SOLUTION</p>
+<P class="swi-th">Far far away, behind the world mountains,far from countries Nigeria 
+and America there live the blind text  
+</P>
+      </div>
+    </div>
+      <div class="swiper-slide"><div class="swiper-slide-two">
+        <p class="swi-fi-2">CREATING PORTFOLIOS</p>
+        <p class="swi-se-2">PROFESSIONAL <br>& CREATIVE<br> CREAIVE<br>  SOLUTION</p>
+        <P class="swi-th-2">Far far away, behind the world mountains,far from countries Nigeria 
+        and America there live the blind text  
+        </P>
+        <div class="whole-start">
+        <a href="#" class="start-one">GET STARTED</a>
+        <a href="#" class="start-two">VIEW PORTFOLIOS</a>
+      </div>
+      </div>
+    </div>
+     
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!--  If we need navigation buttons -->
+   <!-- <div class="swiper-button-prev"></div> 
+    <div class="swiper-button-next"></div> -->
+    
+  
+  <div class="swiper-scrollbar"></div>
+  </div>
+  <!-- Transparent black background color secction(section:3) -->
+  <div class="bg-one">
+    <div class="whole-letter-flex">
+    <div class="letter-container-1">
+    <p class="bg-letter-one">WE SHAPE THE<br> PERFECT SOLUTIONS</p>
+    <p class="bg-letter-two">A small river named Duden
+      flows by their place and supplies it with the necessary regelialia.It's a paradisematic country,
+      in which roasted part of sentences fly into your mouth
+    </p>
+  </div>
+<a href="#" class="letter-container-2">
+  <i class="fa-solid fa-satellite-dish"></i>
+  <p class="letter-para">DIGITAL<br> PRODUCT</p>
+  <div class="circle">
+    <i class="fa-solid fa-angle-right"></i>
+  </div>
+</a>
+<a href="#" class="letter-container-3">
+  <i class="fa-solid fa-city"></i>
+  <p class="letter-para">ONLINE<br> MARKETING</p>
+  <div class="circle">
+    <i class="fa-solid fa-angle-right"></i>
+  </div>
+</a>
+</div>
+
+<div class="whole-box-flex">
+<a href="#" class="letter-container-4">
+  <i class="fa-brands fa-accessible-icon"></i>
+  <p class="letter-para">GRAPHIC<br> DESIGN</p>
+  <div class="circle">
+    <i class="fa-solid fa-angle-right"></i>
+  </div>
+</a>
+<a href="#" class="letter-container-4">
+  <i class="fa-solid fa-bahai"></i>
+  <p class="letter-para">APPLICATION<br> DEVELOPMENT</p>
+  <div class="circle">
+    <i class="fa-solid fa-angle-right"></i>
+  </div>
+</a>
+<a href="#" class="letter-container-4">
+  <i class="fa-brands fa-audible"></i>
+  <p class="letter-para">WEB<br> DEVELOPMENT</p>
+  <div class="circle">
+    <i class="fa-solid fa-angle-right"></i>
+  </div>
+</a>
+<a href="#" class="letter-container-4">
+  <i class="fa-solid fa-atom"></i>
+  <p class="letter-para">UI/UX<br> DESIGN</p>
+  <div class="circle">
+    <i class="fa-solid fa-angle-right"></i>
+  </div>
+</a>
+</div>
+</div>
+<!-- Background color(like wheat color) used section(section:4) -->
+<div class="creative-container">
+  <img src="img-rebranded/pexels-anna-shvets-3727511-alt.jpg" alt="" class="creative-con-1">
+  <div class="creative-con-2">
+    <p class="creative-fi"> WELCOME E-BUILDER</p>
+<p class="creative-se">HIGHEST<br>CREATIVE STANDARDS</p>
+<P class="creative-th">Far far away, behind the word mountains, far from the countries Vokalia
+   and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right 
+   at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place
+    and supplies it with the necessary regelialia.
+</P>
+<div class="creative-think">
+  <div class="sub-creative-think">
+    <i class="fa-brands fa-buffer"></i>
+  </div>
+  <p class="sub-creative-para">42<br>years<br>of experience</p>
+ 
+</div>
+  </div>
+</div>
+<!-- Background linear image used section(section:5) -->
+<div class="linear-container">
+  <!-- article-one -->
+  <article class="art-one">
+  <div class="flex-linear-con">
+    <i class="fa-brands fa-cc-diners-club"></i>
+  </div>
+  <p class="flex-linear-para">4,800<br> PROJECT finished</p>
+</article>
+ <!-- article-two -->
+<article class="art-two">
+  <div class="flex-linear-con">
+    <i class="fa-solid fa-chess-knight"></i>
+  </div>
+  <p class="flex-linear-para">1000<br> our staff opter</p>
+  </article>
+  <!-- article-three -->
+  <article class="art-three">
+    <div class="flex-linear-con">
+      <i class="fa-brands fa-codepen"></i>
+    </div>
+    <p class="flex-linear-para">350<br> service provide</p>
+  </article>
+   <!-- article-four -->
+  <article class="art-four">
+    <div class="flex-linear-con">
+      <i class="fa-solid fa-fan"></i>
+    </div>
+    <p class="flex-linear-para">7,650<br> happy customer</p>
+  </article>
+</article>
+</div>
+<!-- Background color used(cream color)..(section:6) -->
+<div class="bg-two">
+  <!-- sec-flex-one -->
+  <div class="flex-sec-one">
+    <img src="img-rebranded/pexels-andrea-piacquadio-3768911-alt.jpg" alt="" class="sub-sec-image">
+    <p class="sub-sec-para">we are very<br> experienced & professionals</p>
+    <!-- percentage one -->
+    <div class="percent-container">
+<p class="sub-percent-one">creative design<span class="sp-pt">80%</span></p>
+<div class="sub-percent-two">
+  <div class="inside-percent-two-1"></div>
+</div>
+    </div>
+    <!-- percentage two -->
+    <div class="percent-container">
+      <p class="sub-percent-one">product engineering<span class="sp-pt">93%</span></p>
+      <div class="sub-percent-two">
+        <div class="inside-percent-two-2"></div>
+      </div>
+          </div>
+<!-- percentage three -->
+<div class="percent-container">
+  <p class="sub-percent-one">marketing strategy<span class="sp-pt-3">70%</span></p>
+  <div class="sub-percent-two">
+    <div class="inside-percent-two-3"></div>
+  </div>
+      </div>
+      <!-- percentage four -->
+      <div class="percent-container">
+        <p class="sub-percent-one">support tips<span class="sp-pt-4">87%</span></p>
+        <div class="sub-percent-two">
+          <div class="inside-percent-two-4"></div>
+        </div>
+            </div>
+            <!-- end div of "flex-sec-one" is below -->
+  </div>
+
+
+
+<!-- sec-flex-two -->
+  <div class="flex-sec-two">
+    <p class="sec-small-para">frequently asked questions</p>
+    <p class="sec-big-para">frequently<br> asked questions</p>
+    <!-- first accordion -->
+    <div class="whole-accord" id="another-accord-1">
+  <span class="sp-pr">how to fix a problem? </span>
+       <i class="fa-solid fa-angle-down" id="id-one"></i>
+       <i class="fa-solid fa-angle-up"  id="id-two"></i>
+    </div>
+      <p class="text-accord-1">
+        1.  Far far away, behind the word mountains<br>
+        2. Consonantia, there live the blind texts<br>
+        3. When she reached the first hills of the Italic Mountains<br>
+        4. Bookmarksgrove, the headline of Alphabet Village<br>
+        5. Separated they live in Bookmarksgrove right
+      </p>
+      <!-- second accordion -->
+      <div class="whole-accord" id="another-accord-2">
+        <span class="sp-pr">manage your website?</span> 
+        <i class="fa-solid fa-angle-down" ></i>
+      </div>
+<p class="text-accord-2">
+  1.  Far far away, behind the word mountains<br>
+  2. Consonantia, there live the blind texts<br>
+  3. When she reached the first hills of the Italic Mountains<br>
+  4. Bookmarksgrove, the headline of Alphabet Village<br>
+  5. Separated they live in Bookmarksgrove right
+</p>
+<!-- third accordion -->
+<div class="whole-accord" id="another-accord-3">
+  <span class="sp-pr">how to grow your investment funds?</span> 
+  <i class="fa-solid fa-angle-down" ></i>
+</div>
+<p class="text-accord-3" >
+1.  Far far away, behind the word mountains<br>
+2. Consonantia, there live the blind texts<br>
+3. When she reached the first hills of the Italic Mountains<br>
+4. Bookmarksgrove, the headline of Alphabet Village<br>
+5. Separated they live in Bookmarksgrove right
+</p>
+<!-- forth accordion -->
+<div class="whole-accord" id="another-accord-4">
+  <span class="sp-pr">what are those requirement?</span> 
+  <i class="fa-solid fa-angle-down" ></i>
+</div>
+<p class="text-accord-4">
+1.  Far far away, behind the word mountains<br>
+2. Consonantia, there live the blind texts<br>
+3. When she reached the first hills of the Italic Mountains<br>
+4. Bookmarksgrove, the headline of Alphabet Village<br>
+5. Separated they live in Bookmarksgrove right
+</p>
+  </div><!--- flex-sec-two closing div-->
+
+</div> <!--- bg-two closing div-->
+<!-- small gray background color patching -->
+<div class="small-patch"></div>
+<!-- bg-three div -->
+<div class="bg-three">
+  <div class="prof-flex-container">
+    <div class="prof-sub-one">
+<p class="prof-para-1">meet the team</p>
+<p class="prof-para-2">professional<br>creative team members</p>
+    </div>
+    <a href="#" class="prof-sub-two">view all members &nbsp;  <i class="fa-solid fa-angle-right"></i>
+    </a>
+  </div>
+<!-- the start of model /suit man images(the div named suit-flex-conainer) -->
+<div class="suit-flex-container">
+  <div class="img-suit-1">
+      <!-- image 1 in background color -->
+    <div class="trans-social">
+      <p class="liam">
+        LIAM NEIL<br>GRAPHIC DESIGNER
+      </p>
+      <div class="liam-icon">
+        <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#">  <i class="fa-brands fa-instagram"></i></a>
+        <a href="#">  <i class="fa-brands fa-twitter"></i></a>
+        <a href="#">  <i class="fa-brands fa-google"></i></a>
+    </div>
+    </div>
+    <div class="trans-over"></div>
+  </div>
+  <div class="img-suit-2">
+    <!-- image 2 in background color -->
+    <div class="trans-social">
+      <p class="liam">
+        ALAN BROKE<br>WEB DEV
+      </p>
+      <div class="liam-icon">
+        <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#">  <i class="fa-brands fa-instagram"></i></a>
+        <a href="#">  <i class="fa-brands fa-twitter"></i></a>
+        <a href="#">  <i class="fa-brands fa-google"></i></a>
+    </div>
+    </div>
+    <div class="trans-over"></div>
+  </div>
+  <div class="img-suit-3">
+   <!-- image 3 in background color -->
+    <div class="trans-social">
+      <p class="liam">
+        RESOLVE WRITE<br>DATA PROCESSING
+      </p>
+      <div class="liam-icon">
+        <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#">  <i class="fa-brands fa-instagram"></i></a>
+        <a href="#">  <i class="fa-brands fa-twitter"></i></a>
+        <a href="#">  <i class="fa-brands fa-google"></i></a>
+    </div>
+    </div>
+    <div class="trans-over"></div>
+  </div>
+  <div class="img-suit-4">
+    <!-- image 4 in background color -->
+    <div class="trans-social">
+      <p class="liam">
+        ISAAC NEWTON<br>MICROSOFT EXCEL
+      </p>
+      <div class="liam-icon">
+     <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+     <a href="#">  <i class="fa-brands fa-instagram"></i></a>
+     <a href="#">  <i class="fa-brands fa-twitter"></i></a>
+     <a href="#">  <i class="fa-brands fa-google"></i></a>
+    </div>
+    </div>
+    <div class="trans-over"></div>
+  </div>
+  <div class="img-suit-5">
+    <!-- image 2 in background color -->
+    <div class="trans-social">
+      <p class="liam">
+        SETH FLAW<br>DATABASE
+      </p>
+      <div class="liam-icon">
+        <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#">  <i class="fa-brands fa-instagram"></i></a>
+        <a href="#">  <i class="fa-brands fa-twitter"></i></a>
+        <a href="#">  <i class="fa-brands fa-google"></i></a>
+    </div>
+    </div>
+    <div class="trans-over"></div>
+  </div>
+</div>
+</div><!--end of bg three div-->
+<div class="bg-four">
+  <div class="late-flex-container">
+    <div class="late-sub-one">
+<p class="late-para-1">recent portfolio</p>
+<p class="late-para-2">we have done<br>many latest projects</p>
+    </div>
+    <a href="#" class="late-sub-two">view all projects &nbsp;  <i class="fa-solid fa-angle-right"></i>
+    </a>
+  </div>
+<!-- the start of casual images(the div named casual-flex-conainer) -->
+<div class="casual-flex-container-1">
+  <div class="img-casual-1">
+    <div class="trans-over-2">
+      <div class="sub-trans-con">
+        <p class="trans-para">WEB APPLICATION<br> INTERIOR DESIGN</p>
+       <a href=""> <i class="fa-solid fa-angle-right" id="right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="img-casual-2">
+    <div class="trans-over-2">
+      <div class="sub-trans-con">
+        <p class="trans-para">WEB APPLICATION<br> INTERIOR DESIGN</p>
+       <a href=""> <i class="fa-solid fa-angle-right" id="right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="img-casual-3">
+    <div class="trans-over-2">
+      <div class="sub-trans-con">
+        <p class="trans-para">WEB APPLICATION<br> INTERIOR DESIGN</p>
+       <a href=""> <i class="fa-solid fa-angle-right" id="right"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!--the end of bg-four div-->
+<div class="bg-five">
+  <div class="img-occ-1">
+    <div class="trans-over-2">
+      <div class="sub-trans-con">
+        <p class="trans-para">WEB APPLICATION<br> INTERIOR DESIGN</p>
+       <a href=""> <i class="fa-solid fa-angle-right" id="right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="img-occ-2">
+    <div class="trans-over-2">
+      <div class="sub-trans-con">
+        <p class="trans-para">WEB APPLICATION<br> INTERIOR DESIGN</p>
+       <a href=""> <i class="fa-solid fa-angle-right" id="right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="img-occ-3">
+    <div class="trans-over-2">
+      <div class="sub-trans-con">
+        <p class="trans-para">WEB APPLICATION<br> INTERIOR DESIGN</p>
+       <a href=""> <i class="fa-solid fa-angle-right" id="right"></i></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="work-sub-one">
+    <p class="work-para-1">testimonial</p>
+    <p class="work-para-2">people say<br>about our works</p>
+        </div>
+        <!-- the start of swiper 2 -->
+        <!-- Slider main container -->
+        <div class="swiper-container-2 swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="swiper-sub-1">
+       <p class="swiper-para-1"> Far far away, behind the word mountains, far
+         from the countries Vokalia and Consonantia, 
+        there live the blind texts. 
+        Separated they live in Bookmarksgrove.</p>
+        <div class="swiper-para-2">
+          <img src="img-rebranded/pexels-michael-burrows-7129700-alt.jpg" alt="">
+          <div class="rest">
+            <!-- starts container -->
+            <div class="stars-container">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div><!--end of stars contaiiner-->
+          <p class="roger">Roger Scot</p>
+          <p class="roger-2">Marketing manager</p>
+        </div><!--end of rest container-->
+        </div><!--end of swiper-para-2-->
+      </div><!--end of swiper-sub-1-->
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-sub-2">
+          <p class="swiper-para-1"> Far far away, behind the word mountains, far
+            from the countries Vokalia and Consonantia, 
+           there live the blind texts. 
+           Separated they live in Bookmarksgrove.</p>
+           <div class="swiper-para-2">
+             <img src="img-rebranded/pexels-sora-shimazaki-5668885-alt.jpg" alt="">
+             <div class="rest">
+               <!-- starts container -->
+               <div class="stars-container">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+           </div><!--end of stars contaiiner-->
+             <p class="roger">Roger Scot</p>
+             <p class="roger-2">Marketing manager</p>
+           </div><!--end of rest container-->
+           </div><!--end of swiper-para-2-->
+        
+      </div><!--end of swiper-sub-2--> 
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-sub-3">
+          <p class="swiper-para-1"> Far far away, behind the word mountains, far
+            from the countries Vokalia and Consonantia, 
+           there live the blind texts. 
+           Separated they live in Bookmarksgrove.</p>
+           <div class="swiper-para-2">
+             <img src="img-rebranded/pexels-marlene-leppänen-1183266-alt.jpg" alt="">
+             <div class="rest">
+               <!-- starts container -->
+               <div class="stars-container">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+           </div><!--end of stars contaiiner-->
+             <p class="roger">Roger Scot</p>
+             <p class="roger-2">Marketing manager</p>
+           </div><!--end of rest container-->
+           </div><!--end of swiper-para-2-->
+        
+      </div><!--end of swiper-sub-3-->
+    </div>
+  
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div> --> 
+</div>
+
+<div class="news-image">
+  <div class="sub-news-box">
+    JOIN US NEWSLETTER<br>
+Sign Up to our Newsletter and get our latest news update
+    <form action="" class="news-form">
+    <input type="email" placeholder=" enter email address" inputmode="email">
+    <input type="submit" value="subscribe">
+  </form>
+  </div>
+</div>
+</div><!--end of div of five bg-color -->
+<div class="bg-six">
+  <div class="gideon-whole">
+<div class="gideon-container-1">
+<p class="para-gideon">GIDEON<br>
+ <span class="sp-g"> Far far away, 
+  behind the word mountains, 
+  far from the countries.</span>
+</p>
+<a href="#" class="circle-gideon">
+   <i class="fa-brands fa-facebook-f"></i>
+</a>
+<a href="#" class="circle-gideon">
+  <i class="fa-brands fa-instagram"></i>
+</a>
+<a href="#" class="circle-gideon">
+  <i class="fa-brands fa-twitter"></i>
+</a>
+</div><!--end of gideon-container-1-->
+<div class="gideon-container-2">
+  <p class="para-gideon-2">EXPLORE<br>
+   <span class="sp-g"> 
+    <a href="#">
+      <i class="fa-solid fa-chevron-right"></i> &nbsp; About
+    </a>
+    <a href="#">
+      <i class="fa-solid fa-chevron-right"></i>&nbsp; Contact
+    </a>
+    <a href="#">
+      <i class="fa-solid fa-chevron-right"></i>&nbsp; Portfolio
+    </a>
+    <a href="#">
+      <i class="fa-solid fa-chevron-right"></i>&nbsp; Blog
+    </a>
+   </span>
+  </p>
+  
+  </div><!--end of gideon-container-2-->
+  <div class="gideon-container-3">
+    <p class="para-gideon-2">INFO<br>
+      <span class="sp-g"> 
+       <a href="#">
+         <i class="fa-solid fa-chevron-right"></i> &nbsp; Join Us
+       </a>
+       <a href="#">
+         <i class="fa-solid fa-chevron-right"></i>&nbsp; Blog
+       </a>
+       <a href="#">
+         <i class="fa-solid fa-chevron-right"></i>&nbsp; Privacy & Policy
+       </a>
+       <a href="#">
+         <i class="fa-solid fa-chevron-right"></i>&nbsp; Terms & Conditions
+       </a>
+      </span>
+     </p>
+    </div><!--end of gideon-container-3-->
+    <div class="gideon-container-4">
+      <p class="para-gideon-2">COMPANY<br>
+        <span class="sp-g"> 
+         <a href="#">
+           <i class="fa-solid fa-chevron-right"></i> &nbsp; About Us
+         </a>
+         <a href="#">
+           <i class="fa-solid fa-chevron-right"></i>&nbsp; Blog
+         </a>
+         <a href="#">
+           <i class="fa-solid fa-chevron-right"></i>&nbsp; Contact
+         </a>
+         <a href="#">
+           <i class="fa-solid fa-chevron-right"></i>&nbsp; Career
+         </a>
+        </span>
+       </p>
+      </div><!--end of gideon-container-4-->
+      <div class="gideon-container-5">
+        <p class="para-gideon-2">HAVE A QUESTION ?<br>
+          <span class="sp-g"> 
+           <a href="#" >
+            <i class="fa-solid fa-map"></i> &nbsp; 203 Fake St.
+             Mountain View, San Francisco, California, USA
+           </a>
+           <a href="#">
+            <i class="fa-solid fa-phone"></i>&nbsp; +2349066832406
+           </a>
+           <a href="#">
+            <i class="fa-solid fa-location-arrow"></i>&nbsp; info@gideondormain.com
+           </a>
+          
+          </span>
+         </p>
+        </div><!--end of gideon-container-5-->
+  </div><!--end of gideon-whole-->
+</div><!--end of six bg-color-->
+<div class="bg-seven">
+  Copyright ©2022 All rights reserved | This template is made with &#10084;  by Gideon
+</div>
+
+
+
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
